@@ -1,0 +1,1 @@
+// JS placeholder - will be replaced
