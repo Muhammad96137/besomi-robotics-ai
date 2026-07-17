@@ -13,6 +13,13 @@ Official website for **Besomi Robotics & AI** - a leading robotics and artificia
 
 The website is fully functional with interactive animations, particle effects, and smooth scroll transitions.
 
+## v2 Updates
+
+- **Purple Color Theme** - New purple (#7C3AED) color scheme for Robotics & AI branding
+- **TechBots Section** - Prominent featured section for the TechBots competition with official logo
+- **Improved Events Page** - Complete redesign with timeline, competition categories, FAQ accordion
+- **Better Images** - AI-generated professional images for all sections
+
 ## About Besomi Robotics & AI
 
 Besomi Robotics & AI specializes in:
@@ -23,17 +30,17 @@ Besomi Robotics & AI specializes in:
 ## Website Features
 
 ### Pages
-- **Home** - Hero with interactive particle canvas, company stats, services, featured products
+- **Home** - Hero with interactive particle canvas, company stats, services, featured products, TechBots section
 - **Products** - Full Unitree robotics catalog with filtering (Humanoid, Quadruped, etc.)
 - **Quiz** - Interactive robotics knowledge quiz with scoring
-- **Events** - Upcoming events and competitions showcase
+- **Events** - TechBots featured event, timeline, competition categories, past events, FAQ
 - **Gallery** - Project gallery with filtering capabilities
-- **Community** - MENA Makers community hub
+- **Community** - MENA Makers community hub with testimonials
 
 ### Technical Highlights
 - **Interactive Particle Hero**: Canvas-based particle system with mouse-following effects
-- **Scroll Animations**: GSAP ScrollTrigger for section reveal animations
-- **3D Card Hover Effects**: Perspective transforms on service cards
+- **Scroll Animations**: Framer Motion for section reveal animations
+- **Purple + Blue Dual Theme**: Colors represent Robotics & AI (purple) and corporate (blue)
 - **Responsive Design**: Mobile-first approach with breakpoints
 - **SPA Routing**: React Router for seamless page transitions
 
@@ -42,7 +49,7 @@ Besomi Robotics & AI specializes in:
 - **React 19** + TypeScript
 - **Vite** (build tool)
 - **Tailwind CSS v3** (styling)
-- **GSAP** (animations)
+- **Framer Motion** (animations)
 - **shadcn/ui** (component library)
 - **React Router** (client-side routing)
 
@@ -51,10 +58,18 @@ Besomi Robotics & AI specializes in:
 | Color | Hex | Usage |
 |-------|-----|-------|
 | Deep Navy | `#0A2A52` | Headings, dark sections |
-| Besomi Blue | `#055C9D` | Primary brand, buttons, accents |
+| Besomi Blue | `#055C9D` | Corporate branding, links |
 | Besomi Cyan | `#00A8E8` | Highlights, gradients, glows |
-| Warm White | `#F0F4F8` | Section backgrounds |
-| Body Text | `#334155` | Paragraph text |
+| Besomi Purple | `#7C3AED` | Robotics & AI primary color |
+| Besomi Violet | `#A78BFA` | Light accents, hover states |
+| Besomi Dark Purple | `#5B21B6` | Deep purple for gradients |
+
+## TechBots Competition
+
+The premier robotics competition in the GCC region:
+- **500+ Competitors** from across the Middle East
+- **$50,000 Prize Pool** across 4 categories
+- **Categories**: Sumo Robot Battles, Autonomous Racing, Innovation Showcase, Speed Challenges
 
 ## Unitree Products Featured
 
@@ -64,20 +79,6 @@ Besomi Robotics & AI specializes in:
 - **B2** - Industrial quadruped
 - **H1** - High-performance humanoid
 - **Z1** - Robotic arm
-- **R1** - Research platform
-
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-```
 
 ## Deployment
 
